@@ -4,17 +4,13 @@ int main() {
 
 
 
-    int a = 4;
-    int b = 7;
+    int a = 5;
+    int b = 5;
 
-    printf("%i\n", a++ + b);
-    printf("%i\n", ++a +b);
-
-    printf("%i\n", --a + b);
-    printf("%i\n", a-- + b);
+    printf("%i", a == b);
 
 
 
-    
+
     return 0;
 }

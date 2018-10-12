@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
 
+    int rok;
+    bool przestepny;
 
 
-    int a = 5;
-    int b = 5;
+    printf("Podaj rok: ");
+    scanf("%i", &rok);
 
-    printf("%i", a == b);
+    przestepny = !(rok % 4) && rok % 100 || !(rok % 400);
+
+    printf("%i", przestepny);
 
 
 

@@ -3,16 +3,19 @@
 
 int main() {
 
-    int rok;
-    bool przestepny;
+    int a = 7;
+    int b = 3;
+    int max, min;
+
+    max = a > b ? a : b;
 
 
-    printf("Podaj rok: ");
-    scanf("%i", &rok);
+    printf("maximum: %i\n", max);
 
-    przestepny = !(rok % 4) && rok % 100 || !(rok % 400);
+min = a < b ? a : b;
 
-    printf("%i", przestepny);
+printf("minimum:%i\n", min);
+
 
 
 
